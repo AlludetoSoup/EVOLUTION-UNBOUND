@@ -24,6 +24,7 @@ import { Application, Assets, Sprite } from "pixi.js";
 
   // Add the bunny to the stage
   app.stage.addChild(bunny);
+  
 
   // Listen for animate update
   app.ticker.add((time) => {
